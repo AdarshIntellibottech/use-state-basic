@@ -10,6 +10,9 @@ import EventScreen from './Screens/EventsScreen';
 import Form from './Screens/Form';
 import Login from './Screens/Login';
 import GetCatFact from './Screens/GetCatFact';
+import InputClearScreen from './Screens/InputClearScreen';
+import BigForm from './Screens/BigForm';
+import SpreadOperator from './Screens/SpreadOperator';
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
       <Route path='*' element = { <Error/> } />
       <Route path = '/login' element = {<Login/>} />
       <Route path = '/cat' element = {<GetCatFact/>} />
+      <Route path = '/input' element = {<InputClearScreen/>} />
+      <Route path = '/webform' element = {<BigForm/>} />
+      <Route path = '/spread' element = {<SpreadOperator/>} />
       
     </Routes>
    </BrowserRouter>
