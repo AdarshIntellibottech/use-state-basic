@@ -13,6 +13,7 @@ import GetCatFact from './Screens/GetCatFact';
 import InputClearScreen from './Screens/InputClearScreen';
 import BigForm from './Screens/BigForm';
 import SpreadOperator from './Screens/SpreadOperator';
+import TaskTracker from './Screens/TaskTracker';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
       <Route path = '/input' element = {<InputClearScreen/>} />
       <Route path = '/webform' element = {<BigForm/>} />
       <Route path = '/spread' element = {<SpreadOperator/>} />
+      <Route path = '/task' element = {<TaskTracker/>} />
       
     </Routes>
    </BrowserRouter>
